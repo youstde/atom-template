@@ -2,7 +2,7 @@
 	"name": "atom-template",
 	"displayName": "atom-template",
 	"description": "基于模板生成代码",
-	"version": "0.0.9",
+	"version": "0.0.10",
 	"publisher": "songtao718",
 	"engines": {
 		"vscode": "^1.54.0"
@@ -14,6 +14,7 @@
 	"categories": [
 		"Other"
 	],
+	"icon": "images/icon.png",
 	"activationEvents": [
 		"onCommand:extension.initTpl",
 		"onCommand:extension.createFunctionalComponent"
