@@ -10,10 +10,10 @@ import { createFunCom } from './lib/tpl';
 export function activate(context: vscode.ExtensionContext) {
 	console.log('Congratulations, your extension "react-template" is now active!');
 
-	const init = vscode.commands.registerCommand('extension.initTpl', initFn);
+	const init = vscode.commands.registerCommand('extension.initAtomTpl', initFn);
 
 	// 注册一个名为createFunctionalComponent的命令
-	const cfc = vscode.commands.registerCommand('extension.createFunctionalComponent', createFunCom);
+	const cfc = vscode.commands.registerCommand('extension.createTSFunComponent', createFunCom);
 	
 	context.subscriptions.push(init);
 	context.subscriptions.push(cfc);

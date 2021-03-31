@@ -44,7 +44,7 @@ npm manifest:
   		"Other"
   	],
   	"activationEvents": [
-  		"onCommand:extension.initTpl",
+  		"onCommand:extension.initAtomTpl",
   		"onCommand:extension.createFunctionalComponent"
   ],
   	"main": "./out/extension.js",
@@ -55,8 +55,8 @@ npm manifest:
   					"title": "Create Functional Component"
   			},
   			{
-  				"command": "extension.initTpl",
-  				"title": "initTpl"
+  				"command": "extension.initAtomTpl",
+  				"title": "initAtomTpl"
   			}
   	],
   	"menus": {

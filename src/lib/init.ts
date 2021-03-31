@@ -1,6 +1,6 @@
 import * as vscode from 'vscode';
 import path = require('path');
-import { mkdir, checkExist } from './fs';
+import { mkdir, checkExist, readDirFileSync } from './fs';
 const { execSync, exec } = require('child_process');
 
 const GIT_PATH = 'git@github.com:youstde/atom-tpls.git';

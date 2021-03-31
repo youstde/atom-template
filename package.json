@@ -2,7 +2,7 @@
 	"name": "atom-template",
 	"displayName": "atom-template",
 	"description": "基于模板生成代码",
-	"version": "0.0.10",
+	"version": "0.1.5",
 	"publisher": "songtao718",
 	"engines": {
 		"vscode": "^1.54.0"
@@ -16,25 +16,25 @@
 	],
 	"icon": "images/icon.png",
 	"activationEvents": [
-		"onCommand:extension.initTpl",
-		"onCommand:extension.createFunctionalComponent"
+		"onCommand:extension.initAtomTpl",
+		"onCommand:extension.createTSFunComponent"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.createFunctionalComponent",
-				"title": "Create Functional Component"
+				"command": "extension.createTSFunComponent",
+				"title": "Create TS Fun Component"
 			},
 			{
-				"command": "extension.initTpl",
-				"title": "initTpl"
+				"command": "extension.initAtomTpl",
+				"title": "initAtomTpl"
 			}
 		],
 		"menus": {
 			"explorer/context": [
 				{
-					"command": "extension.createFunctionalComponent",
+					"command": "extension.createTSFunComponent",
 					"group": "1_modification"
 				}
 			]
